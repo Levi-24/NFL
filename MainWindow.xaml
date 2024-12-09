@@ -1,12 +1,63 @@
 ﻿<Window x:Class="NFL.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:NFL"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="NFL Teams" Height="450" Width="800">
     <Grid>
+        <DataGrid x:Name="TeamsDataGrid" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Founding Year" Binding="{Binding FoundingYear}" />
+                <DataGridTextColumn Header="City" Binding="{Binding City}" />
+
+                <!-- Jersey Colors -->
+                <DataGridTemplateColumn Header="Jersey Colors">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DataGrid ItemsSource="{Binding Jerseys}" AutoGenerateColumns="False" Margin="5">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Color" Binding="{Binding}" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Players -->
+                <DataGridTemplateColumn Header="Players">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DataGrid ItemsSource="{Binding Players}" AutoGenerateColumns="False" HeadersVisibility="Column" Margin="5">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Player Name" Binding="{Binding Name}" />
+                                    <DataGridTextColumn Header="Player Position" Binding="{Binding Position}" />
+                                    <DataGridTextColumn Header="Player Age" Binding="{Binding Age}" />
+                                    <DataGridTemplateColumn>
+                                        <DataGridTemplateColumn.CellTemplate>
+                                            <DataTemplate>
+                                                <Button>Show Details</Button>
+                                            </DataTemplate>
+                                        </DataGridTemplateColumn.CellTemplate>
+                                    </DataGridTemplateColumn>
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Coaches -->
+                <DataGridTemplateColumn Header="Coaches">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DataGrid ItemsSource="{Binding Coaches}" AutoGenerateColumns="False" HeadersVisibility="Column" Margin="5">
+                                <DataGrid.Columns>
+                                    <DataGridTextColumn Header="Coach Name" Binding="{Binding Name}" />
+                                </DataGrid.Columns>
+                            </DataGrid>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
 
     </Grid>
 </Window>

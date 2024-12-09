@@ -1,0 +1,15 @@
+Nelson Agholor;Baltimore Ravens;15;WR;6-0;200;31;10;USC
+Rasheen Ali;Baltimore Ravens;26;RB;5-11;212;23;R;Marshall
+Mark Andrews;Baltimore Ravens;89;TE;6-5;250;29;7;Oklahoma
+Rashod Bateman;Baltimore Ravens;7;WR;6-1;195;25;4;Minnesota
+Zay Flowers;Baltimore Ravens;4;WR;5-9;175;24;2;Boston College
+Derrick Henry;Baltimore Ravens;22;RB;6-2;247;30;9;Alabama
+Justice Hill;Baltimore Ravens;43;RB;5-10;195;27;6;Oklahoma State
+Lamar Jackson;Baltimore Ravens;8;QB;6-2;205;27;7;Louisville
+Diontae Johnson;Baltimore Ravens;18;WR;5-10;183;28;6;Toledo
+Josh Johnson;Baltimore Ravens;17;QB;6-3;214;38;10;San Diego
+Isaiah Likely;Baltimore Ravens;80;TE;6-4;247;24;3;Coastal Carolina
+Keaton Mitchell;Baltimore Ravens;34;RB;5-8;191;22;2;East Carolina
+Patrick Ricard;Baltimore Ravens;42;FB;6-3;300;30;8;Maine
+Devontez Walker;Baltimore Ravens;81;WR;6-1;198;23;R;North Carolina
+Tylan Wallace;Baltimore Ravens;16;WR;5-11;202;25;4;Oklahoma State

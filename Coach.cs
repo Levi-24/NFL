@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NFL
 {
-    class Coach
+    public partial class Coach
     {
         public string Name { get; set; }
         public string TeamName { get; set; }
