@@ -1,0 +1,25 @@
+﻿<Window x:Class="NFL.PlayerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NFL"
+        mc:Ignorable="d"
+        Title="PlayerWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <StackPanel Margin="10">
+                <TextBlock Text="Player Details" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
+                <TextBlock Text="{Binding Name}" />
+                <TextBlock Text="{Binding TeamName}" />
+                <TextBlock Text="{Binding Number}" />
+                <TextBlock Text="{Binding Position}" />
+                <TextBlock Text="{Binding Height}" />
+                <TextBlock Text="{Binding Weight}" />
+                <TextBlock Text="{Binding Age}" />
+                <TextBlock Text="{Binding Experience}" />
+                <TextBlock Text="{Binding College}" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows;
+using System.Windows.Controls;
 
 namespace NFL
 {
@@ -38,6 +39,22 @@ namespace NFL
             return File.ReadAllLines(filePath)
                        .Select(line => new Team(line, players, coaches))
                        .ToList();
+        }
+
+        private void Detail_Button_Click(object sender, RoutedEventArgs e)
+        {
+            // Get the Button that triggered the event
+            var button = sender as Button;
+            if (button == null) return;
+
+            // Find the DataContext of the Player row
+            var dataGridRow = DataGridRow.GetRowContainingElement(button);
+            if (dataGridRow?.DataContext is Player player)
+            {
+                // Pass the specific Player data to the PlayerWindow
+                var playerDetailsWindow = new PlayerWindow(player);
+                playerDetailsWindow.Show();
+            }
         }
     }
 
