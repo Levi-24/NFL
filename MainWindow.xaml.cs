@@ -41,6 +41,10 @@ namespace NFL
                        .ToList();
         }
 
+
+
+
+
         private void Detail_Button_Click(object sender, RoutedEventArgs e)
         {
             // Get the Button that triggered the event
@@ -56,6 +60,10 @@ namespace NFL
                 playerDetailsWindow.Show();
             }
         }
+
+
+
+
     }
 
     public partial class Team

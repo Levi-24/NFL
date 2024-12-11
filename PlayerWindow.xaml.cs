@@ -20,7 +20,6 @@ namespace NFL
         {
             InitializeComponent();
 
-            // Set the DataContext to the Player object for binding
             DataContext = player;
         }
     }
