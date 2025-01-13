@@ -1,3 +1,3 @@
-Baltimore Ravens;1996.01.01;Baltimore;Purple-White,White-Black,Black-Black,Purple-Purple
-Detroit Lions;1934.01.01;Detroit;Blue-Silver,White-White,Blue-Blue,Blue-White
-Green Bay Packers;1919.01.01;Green Bay;Green-Gold,White-White,Green-Green,Green-White
+Baltimore Ravens;1996;Baltimore;Purple-White,White-Black,Black-Black,Purple-Purple
+Detroit Lions;1934;Detroit;Blue-Silver,White-White,Blue-Blue,Blue-White
+Green Bay Packers;1919;Green Bay;Green-Gold,White-White,Green-Green,Green-White

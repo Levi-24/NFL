@@ -2,14 +2,96 @@ Nelson Agholor;Baltimore Ravens;15;WR;6-0;200;31;10;USC
 Rasheen Ali;Baltimore Ravens;26;RB;5-11;212;23;R;Marshall
 Mark Andrews;Baltimore Ravens;89;TE;6-5;250;29;7;Oklahoma
 Rashod Bateman;Baltimore Ravens;7;WR;6-1;195;25;4;Minnesota
-Zay Flowers;Baltimore Ravens;4;WR;5-9;175;24;2;Boston College
-Derrick Henry;Baltimore Ravens;22;RB;6-2;247;30;9;Alabama
-Justice Hill;Baltimore Ravens;43;RB;5-10;195;27;6;Oklahoma State
-Lamar Jackson;Baltimore Ravens;8;QB;6-2;205;27;7;Louisville
-Diontae Johnson;Baltimore Ravens;18;WR;5-10;183;28;6;Toledo
+Chris Board;Baltimore Ravens;49;ILB;6-2;240;29;7;North Dakota State
+Lamar Jackson;Baltimore Ravens;8;QB;6-2;205;28;7;Louisville
 Josh Johnson;Baltimore Ravens;17;QB;6-3;214;38;10;San Diego
-Isaiah Likely;Baltimore Ravens;80;TE;6-4;247;24;3;Coastal Carolina
+Derrick Henry;Baltimore Ravens;22;RB;6-2;247;31;9;Alabama
+Justice Hill;Baltimore Ravens;43;RB;5-10;195;27;6;Oklahoma State
 Keaton Mitchell;Baltimore Ravens;34;RB;5-8;191;22;2;East Carolina
 Patrick Ricard;Baltimore Ravens;42;FB;6-3;300;30;8;Maine
-Devontez Walker;Baltimore Ravens;81;WR;6-1;198;23;R;North Carolina
+Zay Flowers;Baltimore Ravens;4;WR;5-9;175;24;2;Boston College
+Deonte Harty;Baltimore Ravens;3;WR;5-6;170;27;6;Assumption
+Steven Sims;Baltimore Ravens;18;WR;5-10;190;27;5;Kansas
 Tylan Wallace;Baltimore Ravens;16;WR;5-11;202;25;4;Oklahoma State
+Travis Vokolek;Baltimore Ravens;88;TE;6-6;260;25;2;Nebraska
+Isaiah Likely;Baltimore Ravens;80;TE;6-4;241;24;3;Coastal Carolina
+Tyler Linderbaum;Baltimore Ravens;64;C;6-2;305;24;3;Iowa
+Kevin Zeitler;Baltimore Ravens;70;G;6-4;315;35;13;Wisconsin
+Morgan Moses;Baltimore Ravens;78;T;6-6;318;34;10;Virginia
+Ronnie Stanley;Baltimore Ravens;79;T;6-6;315;31;9;Notre Dame
+Marlon Humphrey;Baltimore Ravens;44;CB;6-0;197;28;8;Alabama
+Marcus Williams;Baltimore Ravens;32;S;6-1;202;28;8;Utah
+Kyle Hamilton;Baltimore Ravens;14;S;6-4;220;23;3;Notre Dame
+Roquan Smith;Baltimore Ravens;0;ILB;6-1;232;28;7;Georgia
+Patrick Queen;Baltimore Ravens;6;ILB;6-0;232;25;5;LSU
+Justin Tucker;Baltimore Ravens;9;K;6-1;183;35;13;Texas
+Jordan Stout;Baltimore Ravens;11;P;6-3;209;26;3;Penn State
+Nick Moore;Baltimore Ravens;46;LS;6-2;248;32;5;Georgia
+Jared Goff;Detroit Lions;16;QB;6-4;217;30;9;California
+Teddy Bridgewater;Detroit Lions;12;QB;6-2;212;32;11;Louisville
+Hendon Hooker;Detroit Lions;2;QB;6-3;220;27;2;Tennessee
+Jahmyr Gibbs;Detroit Lions;26;RB;5-9;202;22;2;Alabama
+David Montgomery;Detroit Lions;5;RB;5-11;230;27;6;Iowa State
+Craig Reynolds;Detroit Lions;13;RB;5-11;216;28;4;Kutztown
+Amon-Ra St. Brown;Detroit Lions;14;WR;6-0;202;25;4;USC
+Jameson Williams;Detroit Lions;9;WR;6-1;180;23;2;Alabama
+Kalif Raymond;Detroit Lions;11;WR;5-8;180;30;8;Holy Cross
+Tim Patrick;Detroit Lions;17;WR;6-5;210;31;7;Utah
+Sam LaPorta;Detroit Lions;87;TE;6-3;245;24;2;Iowa
+Brock Wright;Detroit Lions;89;TE;6-5;254;26;3;Notre Dame
+Taylor Decker;Detroit Lions;68;T;6-7;318;30;9;Ohio State
+Penei Sewell;Detroit Lions;58;T;6-5;331;24;4;Oregon
+Frank Ragnow;Detroit Lions;77;C;6-5;310;28;7;Arkansas
+Graham Glasgow;Detroit Lions;60;G;6-6;315;32;9;Michigan
+Kayode Awosika;Detroit Lions;74;G;6-3;322;26;3;Buffalo
+Alex Anzalone;Detroit Lions;34;LB;6-3;238;30;8;Florida
+Jack Campbell;Detroit Lions;46;LB;6-5;246;24;2;Iowa
+Aidan Hutchinson;Detroit Lions;97;DE;6-6;265;24;3;Michigan
+Alim McNeill;Detroit Lions;54;DT;6-2;325;25;4;NC State
+Brian Branch;Detroit Lions;32;S;6-0;203;23;2;Alabama
+Kerby Joseph;Detroit Lions;31;S;6-1;208;24;3;Illinois
+Emmanuel Moseley;Detroit Lions;4;CB;5-11;192;28;7;Tennessee
+Cameron Sutton;Detroit Lions;1;CB;5-11;188;30;8;Tennessee
+Jack Fox;Detroit Lions;3;P;6-2;218;28;5;Rice
+Michael Badgley;Detroit Lions;17;K;5-10;188;29;6;Miami (FL)
+Hogan Hatten;Detroit Lions;49;LS;6-2;239;24;R;Idaho
+Jordan Love;Green Bay Packers;10;QB;6-4;219;26;5;Utah State
+Sean Clifford;Green Bay Packers;6;QB;6-2;218;26;2;Penn State
+Malik Willis;Green Bay Packers;2;QB;6-1;225;25;3;Liberty
+AJ Dillon;Green Bay Packers;28;RB;6-0;247;26;5;Boston College
+Josh Jacobs;Green Bay Packers;8;RB;5-10;223;26;6;Alabama
+Chris Brooks;Green Bay Packers;30;RB;6-1;223;25;2;BYU
+Romeo Doubs;Green Bay Packers;87;WR;6-2;204;24;3;Nevada
+Christian Watson;Green Bay Packers;9;WR;6-4;208;25;3;North Dakota State
+Jayden Reed;Green Bay Packers;11;WR;5-11;187;24;2;Michigan State
+Dontayvion Wicks;Green Bay Packers;13;WR;6-1;206;23;2;Virginia
+Bo Melton;Green Bay Packers;80;WR;5-11;189;25;2;Rutgers
+Malik Heath;Green Bay Packers;18;WR;6-2;213;24;2;Ole Miss
+Luke Musgrave;Green Bay Packers;88;TE;6-6;253;24;2;Oregon State
+Tucker Kraft;Green Bay Packers;85;TE;6-5;259;24;2;South Dakota State
+Tyler Davis;Green Bay Packers;84;TE;6-4;252;27;5;Georgia Tech
+John FitzPatrick;Green Bay Packers;86;TE;6-7;262;24;2;Georgia
+David Bakhtiari;Green Bay Packers;69;T;6-4;310;33;12;Colorado
+Elgton Jenkins;Green Bay Packers;74;G;6-5;311;29;6;Mississippi State
+Josh Myers;Green Bay Packers;71;C;6-5;310;26;4;Ohio State
+Zach Tom;Green Bay Packers;50;T;6-4;304;25;3;Wake Forest
+Yosh Nijman;Green Bay Packers;73;T;6-7;314;29;5;Virginia Tech
+Jaire Alexander;Green Bay Packers;23;CB;5-10;196;27;7;Louisville
+Eric Stokes;Green Bay Packers;21;CB;6-1;194;25;4;Georgia
+Keisean Nixon;Green Bay Packers;25;CB;5-10;200;27;5;South Carolina
+Corey Ballentine;Green Bay Packers;26;CB;5-11;196;28;6;Washburn
+Rasul Douglas;Green Bay Packers;29;CB;6-2;209;30;8;West Virginia
+Darnell Savage;Green Bay Packers;26;S;5-11;198;27;6;Maryland
+Xavier McKinney;Green Bay Packers;29;S;6-0;201;26;5;Alabama
+Rudy Ford;Green Bay Packers;20;S;6-0;204;29;7;Auburn
+Quay Walker;Green Bay Packers;7;LB;6-4;241;24;3;Georgia
+De'Vondre Campbell;Green Bay Packers;59;LB;6-4;232;31;8;Minnesota
+Isaiah McDuffie;Green Bay Packers;58;LB;6-1;227;25;4;Boston College
+Rashan Gary;Green Bay Packers;52;LB;6-5;277;27;6;Michigan
+Lukas Van Ness;Green Bay Packers;90;LB;6-5;272;24;2;Iowa
+Kenny Clark;Green Bay Packers;97;DT;6-3;314;29;9;UCLA
+Devonte Wyatt;Green Bay Packers;95;DT;6-3;304;26;3;Georgia
+Tedarrell Slaton;Green Bay Packers;93;DT;6-4;330;27;4;Florida
+Brandon McManus;Green Bay Packers;17;K;6-3;201;33;11;Temple
+Daniel Whelan;Green Bay Packers;19;P;6-5;216;25;2;UC Davis
+Matt Orzech;Green Bay Packers;42;LS;6-3;245;29;5;Azusa Pacific

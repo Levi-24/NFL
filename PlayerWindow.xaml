@@ -5,21 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NFL"
         mc:Ignorable="d"
-        Title="PlayerWindow" Height="450" Width="800">
+        Title="PlayerWindow" Height="450" Width="320"
+        Background="#FFF8F8F8">
     <Grid>
-        <Grid>
-            <StackPanel Margin="10">
-                <TextBlock Text="Player Details" FontWeight="Bold" FontSize="16" Margin="0,0,0,10"/>
-                <TextBlock Text="{Binding Name}" />
-                <TextBlock Text="{Binding TeamName}" />
-                <TextBlock Text="{Binding Number}" />
-                <TextBlock Text="{Binding Position}" />
-                <TextBlock Text="{Binding Height}" />
-                <TextBlock Text="{Binding Weight}" />
-                <TextBlock Text="{Binding Age}" />
-                <TextBlock Text="{Binding Experience}" />
-                <TextBlock Text="{Binding College}" />
-            </StackPanel>
-        </Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Player Details" FontWeight="Bold" FontSize="16" Margin="0,0,0,10" Foreground="#FF333333"/>
+            <TextBlock Text="Name" FontWeight="Bold" FontSize="14" Foreground="#FF333333"/>
+            <TextBlock Text="{Binding Name}" FontSize="14" Foreground="#FF333333"/>
+
+            <TextBlock Text="Team Name" FontWeight="Bold" FontSize="14" Foreground="#FF333333"/>
+            <TextBlock Text="{Binding TeamName}" FontSize="14" Foreground="#FF333333"/>
+
+            <TextBlock Text="Jersey Number" FontWeight="Bold" FontSize="14" Foreground="#FF333333"/>
+            <TextBlock Text="{Binding Number}" FontSize="14" Foreground="#FF333333"/>
+
+            <TextBlock Text="Position" FontWeight="Bold" FontSize="14" Foreground="#FF333333"/>
+            <TextBlock Text="{Binding Position}" FontSize="14" Foreground="#FF333333"/>
+
+            <TextBlock Text="Height (Feet + Inches)" FontWeight="Bold" FontSize="14" Foreground="#FF333333"/>
+            <TextBlock Text="{Binding Height}" FontSize="14" Foreground="#FF333333"/>
+
+            <TextBlock Text="Weight (Lbs)" FontWeight="Bold" FontSize="14" Foreground="#FF333333"/>
+            <TextBlock Text="{Binding Weight}" FontSize="14" Foreground="#FF333333"/>
+
+            <TextBlock Text="Age" FontWeight="Bold" FontSize="14" Foreground="#FF333333"/>
+            <TextBlock Text="{Binding Age}" FontSize="14" Foreground="#FF333333"/>
+
+            <TextBlock Text="Experience (In Years / Rookie)" FontWeight="Bold" FontSize="14" Foreground="#FF333333"/>
+            <TextBlock Text="{Binding Experience}" FontSize="14" Foreground="#FF333333"/>
+
+            <TextBlock Text="College" FontWeight="Bold" FontSize="14" Foreground="#FF333333"/>
+            <TextBlock Text="{Binding College}" FontSize="14" Foreground="#FF333333"/>
+        </StackPanel>
     </Grid>
 </Window>

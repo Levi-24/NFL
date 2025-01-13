@@ -1,19 +1,31 @@
 ﻿<Window x:Class="NFL.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="NFL Teams" Height="450" Width="800">
+        Title="NFL Teams" Height="720" Width="1240"
+        Background="#FFF8F8F8">
     <Grid>
-        <DataGrid x:Name="TeamsDataGrid" AutoGenerateColumns="False">
+        <DataGrid x:Name="TeamsDataGrid" AutoGenerateColumns="False" HeadersVisibility="Column" GridLinesVisibility="None" 
+                  Margin="10" EnableRowVirtualization="False" EnableColumnVirtualization="False"
+                  ScrollViewer.CanContentScroll="False" 
+                  HorizontalGridLinesBrush="#FFCCCCCC" VerticalGridLinesBrush="#FFCCCCCC" 
+                  AlternatingRowBackground="#FFF0F0F0" AlternationCount="2"
+                  Background="White" BorderBrush="#FFCCCCCC" BorderThickness="1"
+                  RowHeaderWidth="0" ColumnHeaderHeight="40"
+                  FontFamily="Segoe UI" FontSize="14" Foreground="#FF333333">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
-                <DataGridTextColumn Header="Founding Year" Binding="{Binding FoundingYear}" />
-                <DataGridTextColumn Header="City" Binding="{Binding City}" />
+                <!-- Fixed Width Columns -->
+                <DataGridTextColumn Width="150" Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Width="100" Header="Founding Year" Binding="{Binding FoundingYear}" />
+                <DataGridTextColumn Width="150" Header="City" Binding="{Binding City}" />
 
                 <!-- Jersey Colors -->
-                <DataGridTemplateColumn Header="Jersey Colors">
+                <DataGridTemplateColumn Header="Jersey Colors" Width="150">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <DataGrid ItemsSource="{Binding Jerseys}" AutoGenerateColumns="False" Margin="5">
+                            <DataGrid ItemsSource="{Binding Jerseys}" ColumnWidth="*" AutoGenerateColumns="False" 
+                                      Margin="5" Background="#FFF9F9F9" 
+                                      BorderBrush="#FFCCCCCC" BorderThickness="1"
+                                      HorizontalGridLinesBrush="#FFDDDDDD" VerticalGridLinesBrush="#FFDDDDDD">
                                 <DataGrid.Columns>
                                     <DataGridTextColumn Header="Color" Binding="{Binding}" />
                                 </DataGrid.Columns>
@@ -22,19 +34,26 @@
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
 
-                <!-- Players -->
-                <DataGridTemplateColumn Header="Players">
+                <!-- Players - Fills Remaining Space -->
+                <DataGridTemplateColumn Header="Players" Width="*">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <DataGrid ItemsSource="{Binding Players}" AutoGenerateColumns="False" HeadersVisibility="Column" Margin="5">
+                            <DataGrid ItemsSource="{Binding Players}" AutoGenerateColumns="False" HeadersVisibility="Column" 
+                                      Margin="5" Background="#FFF9F9F9" 
+                                      BorderBrush="#FFCCCCCC" BorderThickness="1"
+                                      HorizontalGridLinesBrush="#FFDDDDDD" VerticalGridLinesBrush="#FFDDDDDD">
                                 <DataGrid.Columns>
-                                    <DataGridTextColumn Header="Player Name" Binding="{Binding Name}" />
-                                    <DataGridTextColumn Header="Player Position" Binding="{Binding Position}" />
-                                    <DataGridTextColumn Header="Player Age" Binding="{Binding Age}" />
-                                    <DataGridTemplateColumn>
+                                    <DataGridTextColumn Header="Player Name" Width="*" Binding="{Binding Name}" />
+                                    <DataGridTextColumn Header="Player Position" Width="*" Binding="{Binding Position}" />
+                                    <DataGridTextColumn Header="Player Age" Width="*" Binding="{Binding Age}" />
+                                    <DataGridTemplateColumn Header="Details">
                                         <DataGridTemplateColumn.CellTemplate>
                                             <DataTemplate>
-                                                <Button Click="Detail_Button_Click" Content="Show Details" />
+                                                <Button Click="Detail_Button_Click" Content="Show Details" 
+                                                        Background="#FF007ACC" Foreground="White" 
+                                                        FontFamily="Segoe UI" FontSize="12" Padding="5" 
+                                                        BorderThickness="0" BorderBrush="Transparent"
+                                                        Margin="2" HorizontalAlignment="Center"/>
                                             </DataTemplate>
                                         </DataGridTemplateColumn.CellTemplate>
                                     </DataGridTemplateColumn>
@@ -45,10 +64,13 @@
                 </DataGridTemplateColumn>
 
                 <!-- Coaches -->
-                <DataGridTemplateColumn Header="Coaches">
+                <DataGridTemplateColumn Header="Coaches" Width="150">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <DataGrid ItemsSource="{Binding Coaches}" AutoGenerateColumns="False" HeadersVisibility="Column" Margin="5">
+                            <DataGrid ItemsSource="{Binding Coaches}" ColumnWidth="*" AutoGenerateColumns="False" HeadersVisibility="Column" 
+                                      Margin="5" Background="#FFF9F9F9" 
+                                      BorderBrush="#FFCCCCCC" BorderThickness="1"
+                                      HorizontalGridLinesBrush="#FFDDDDDD" VerticalGridLinesBrush="#FFDDDDDD">
                                 <DataGrid.Columns>
                                     <DataGridTextColumn Header="Coach Name" Binding="{Binding Name}" />
                                 </DataGrid.Columns>
@@ -58,6 +80,5 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
-
     </Grid>
 </Window>
